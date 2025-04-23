@@ -1,7 +1,6 @@
 # modal_botom_sheet
 
-![image](https://github.com/user-attachments/assets/83fa48a8-560d-4b19-821b-b7e83d06308b)
-
+![image](https://github.com/user-attachments/assets/3ee9c253-6975-4677-bc54-a1abe0c4e42b)
 
 A new Flutter project.
 
