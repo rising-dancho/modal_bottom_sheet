@@ -17,7 +17,8 @@ class _AddProductState extends State<AddProduct> {
           TextField(decoration: InputDecoration(labelText: "Product Name")),
           TextField(decoration: InputDecoration(labelText: "Total Count")),
           TextField(decoration: InputDecoration(labelText: "Price")),
-          Container(
+          const SizedBox(height: 10),
+          SizedBox(
             width: double.infinity,
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
