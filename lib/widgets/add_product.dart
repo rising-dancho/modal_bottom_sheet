@@ -15,13 +15,31 @@ class _AddProductState extends State<AddProduct> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            "Add Product",
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 28,
-              color: Colors.grey[700],
-            ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(
+                "Add Product",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 28,
+                  color: Colors.grey[700],
+                ),
+              ),
+              Container(
+                decoration: BoxDecoration(
+                  color: Colors.grey[300], // background color
+                  borderRadius: BorderRadius.circular(8), // rounded corners
+                ),
+                child: IconButton(
+                  icon: Icon(Icons.close),
+                  color: Colors.grey[700], // icon color
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                ),
+              ),
+            ],
           ),
           const SizedBox(height: 10),
           TextField(decoration: InputDecoration(labelText: "Product Name")),
