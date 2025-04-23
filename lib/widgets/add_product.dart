@@ -21,8 +21,8 @@ class _AddProductState extends State<AddProduct> {
             width: double.infinity,
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.amberAccent,
-                foregroundColor: Colors.grey[800],
+                backgroundColor: Colors.green,
+                foregroundColor: Colors.white,
               ),
               onPressed: () {
                 Navigator.pop(context);
