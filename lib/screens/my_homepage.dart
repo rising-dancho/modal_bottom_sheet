@@ -25,7 +25,13 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text('Add Product Snippet'),
       ),
-      body: Container(),
+      body: Container(
+        alignment: Alignment.center,
+        child: Text(
+          "Homescreen",
+          style: TextStyle(fontWeight: FontWeight.w400, fontSize: 18),
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () => _openAddProductModal(context),
         tooltip: 'Add Product',

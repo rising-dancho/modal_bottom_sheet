@@ -17,9 +17,19 @@ class _AddProductState extends State<AddProduct> {
           TextField(decoration: InputDecoration(labelText: "Product Name")),
           TextField(decoration: InputDecoration(labelText: "Total Count")),
           TextField(decoration: InputDecoration(labelText: "Price")),
-          ElevatedButton(onPressed: () {
-            Navigator.pop(context);
-          }, child: Text("Save")),
+          Container(
+            width: double.infinity,
+            child: ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.amberAccent,
+                foregroundColor: Colors.grey[800],
+              ),
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: Text("Save"),
+            ),
+          ),
         ],
       ),
     );
