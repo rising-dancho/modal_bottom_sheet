@@ -1,4 +1,4 @@
-# modal_botom_sheet
+# Modal Bottom Sheet
 
 ![image](https://github.com/user-attachments/assets/e4e57f47-d3bd-4c7a-8e9f-6a8bfa7f3360)
 
